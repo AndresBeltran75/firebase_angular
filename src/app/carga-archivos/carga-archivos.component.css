@@ -1,0 +1,22 @@
+#file{
+    display: none;
+}
+
+#carga{
+    background-color: aqua;
+    border-radius: 100%;
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 0 10px -1px rgb(38, 38, 38);
+    display: flex;
+}
+
+#carga:hover{
+    transform: scale(0.9);
+}
