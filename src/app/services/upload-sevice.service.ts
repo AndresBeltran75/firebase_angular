@@ -19,8 +19,7 @@ export class UploadSeviceService {
       let response = await this.storageReference.child(`users/${ nombre }`).putString(base64, 'data_url');
       return await response.ref.getDownloadURL();
     } catch (error) {
-      console.log( error );
-      return null;
+      throw error;
     }
   }
 
