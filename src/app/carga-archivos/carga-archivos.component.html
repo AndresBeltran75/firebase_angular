@@ -1,18 +1,18 @@
 <div class="container">
 
-    <div *ngIf="mostrarMensaje" class="alert alert-success mt-5" role="alert">
+    <div *ngIf="mostrarMensaje" class="alert alert-success mt-2" role="alert">
         {{ mensaje }}
     </div>
 
-    <div *ngIf="mostrarMensajeError" class="alert alert-danger mt-5" role="alert">
+    <div *ngIf="mostrarMensajeError" class="alert alert-danger mt-2" role="alert">
         {{ mensaje }}
     </div>
 
-    <div *ngIf="estaCargando" class="spinner-border text-primary mt-5" role="status">
+    <div *ngIf="estaCargando" class="spinner-border text-primary mt-2" role="status">
         <span class="sr-only"></span>
       </div>
 
-    <div class="mt-5">
+    <div class="mt-2">
         <input type="file" id="file" name="file" (change)="cargarArchivos($event)">
         <label for="file" id="carga">Cargar Archivos</label>
     </div>

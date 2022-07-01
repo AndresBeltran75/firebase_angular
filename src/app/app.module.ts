@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CargaArchivosComponent } from './carga-archivos/carga-archivos.component';
 import { TabsComponent } from './tabs/tabs.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CargaArchivosComponent,
-    TabsComponent
+    TabsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
